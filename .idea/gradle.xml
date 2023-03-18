@@ -38,11 +38,11 @@
             <option value="$PROJECT_DIR$/library/retrofit-utility" />
             <option value="$PROJECT_DIR$/library/sharedpreferences-utility" />
             <option value="$PROJECT_DIR$/library/tabfragment" />
+            <option value="$PROJECT_DIR$/library/viewcontroller" />
             <option value="$PROJECT_DIR$/resources" />
             <option value="$PROJECT_DIR$/resources/color-library" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
