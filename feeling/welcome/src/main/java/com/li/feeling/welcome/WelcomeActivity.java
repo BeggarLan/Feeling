@@ -26,12 +26,23 @@ public class WelcomeActivity extends Activity {
   private TextView mCountDownView;
   private CountDownTimer mCountDownTimer;
 
+  TextView textView = new TextView();
+
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_welcome_layout);
     mCountDownView = findViewById(R.id.welcome_activity_count_down_view);
     startCountDown();
+
+
+    new Thread() {
+      @Override
+      public void run() {
+        super.run();
+        textView = new TextView();
+      }
+    }.start();
 
   }
 
